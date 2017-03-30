@@ -1,5 +1,10 @@
-/**
- * Created by Nyuol on 30/03/2017.
- */
-public class Cyclist {
+package main;
+
+public class Cyclist extends Athlete {
+
+	public Cyclist() {
+		athleteType = "Cyclist";
+		canCompete[1] = true;
+	}
+
 }
