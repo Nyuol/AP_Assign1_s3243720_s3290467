@@ -2,7 +2,7 @@
  * Created by Nyuol on 30/03/2017.
  */
 
-import java.util.Random
+import java.util.Random;
 public class Athlete {
 
     String name; //TODO should all these vars be public or private?
