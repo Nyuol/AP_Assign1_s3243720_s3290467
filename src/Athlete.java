@@ -3,16 +3,22 @@
  */
 
 import java.util.Random;
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class Athlete {
 
     String name; //TODO should all these vars be public or private?
     int age;
     public String athleteType;
     String repnState;
-    String ozlympID;
-    public int totalPoints = 0;
+    Random rand;
+    public void canCompete(Random rand){
+        return
+                String Object ozlympID;
+       String ozlympID;
+    int totalPoints = 0;
 
-    public boolean[] canCompete = new boolean[3];
+     boolean[] canCompete = new boolean[3];
 
     public String getOzlympID(){
         return ozlympID;
